@@ -21,7 +21,7 @@
                hash = location.hash;
                url = location.href;
            } 
-        }, 1000);
+        }, 100);
     }
     
     init();
