@@ -3,6 +3,16 @@ It supports to detect onhashchange event in old browser.
 
 onhashchange.js run under browser specific version.
 
+## Implemented event fields.
+
+The dispatched hashchange event has the following fields:
+
+----------------------------------------------------------------------------
+|Field|Type|Description
+|newURL|DOMString|	The new URL to which the window is navigating.
+|oldURL|DOMString|	The previous URL from which the window was navigated.
+---------------------------------------------------------------------------
+
 ## Browser compatibility
 
 ```
