@@ -13,7 +13,7 @@ Basic       support	5.0	    3.6 (1.9.2)         8.0                     10.6	   
 
 ## Example
 
-```
+```html
 <html>
     <head>
         <script type="text/javascript" src="onhashchange.js"></script>
