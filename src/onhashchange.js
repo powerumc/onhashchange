@@ -7,20 +7,6 @@
             if (src.hasOwnProperty(p)) { dest[p] = src[p]; }
         }
     }
-    function createEvent(name, arg) {
-        var event = null;
-        if (msie && msie == 8 && document.createEventObject) {
-            event = document.createEventObject(name);
-        }
-        else if (msie && msie > 8 && document.createEvent) {
-            event = document.createEvent("CustomEvent", { obj: arg });
-            event.initEvent(name, true, true);
-        } else if (window.CustomEvent) {
-            event = new CustomEvent(name, { detail: arg });
-        }
-
-        return event;
-    }
 
     function checkBrowserSupport() {
         return (msie && msie >= 8) || window.HashChangeEvent != undefined;
