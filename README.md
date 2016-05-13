@@ -19,7 +19,7 @@ Basic       support	5.0	    3.6 (1.9.2)         8.0                     10.6	   
         <script type="text/javascript" src="onhashchange.js"></script>
         <script>
             window.onhashchange = function(e) {
-                alert("onhashchange";
+                alert("onhashchange");
             }
         </script>
     </head>
