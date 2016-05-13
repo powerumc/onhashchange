@@ -11,6 +11,9 @@ Feature	    Chrome	        Firefox (Gecko)	    Internet Explorer	    Opera	    S
 Basic       support	5.0	    3.6 (1.9.2)         8.0                     10.6	    5.0
 ```
 
+Ref. [https://developer.mozilla.org/ko/docs/Web/API/WindowEventHandlers/onhashchange](https://developer.mozilla.org/ko/docs/Web/API/WindowEventHandlers/onhashchange)
+
+
 ## Example
 
 ```html
