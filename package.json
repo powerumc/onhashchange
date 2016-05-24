@@ -1,0 +1,25 @@
+{
+  "name": "onhashchange",
+  "version": "1.0.0",
+  "description": "It supports to detect onhashchange event in old browser.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powerumc/onhashchange.git"
+  },
+  "keywords": [
+    "onhashchange"
+  ],
+  "author": "Junil Um",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/powerumc/onhashchange/issues"
+  },
+  "homepage": "https://github.com/powerumc/onhashchange#readme"
+}

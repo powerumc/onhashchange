@@ -1,0 +1,20 @@
+{
+  "name": "onhashchange",
+  "description": "It supports to detect onhashchange event in old browser.",
+  "main": "src\\onhashchange.js",
+  "authors": [
+    "Junil Um"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "onhashchange"
+  ],
+  "homepage": "https://github.com/powerumc/onhashchange",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
